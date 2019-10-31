@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9007903A-C501-096C-EB1A-2A575C7556F8" name="PHONE_NUMBER">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:06:27 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PN</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="343F663B-B84E-9145-2BF1-71788DED89D4">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:17:40 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="4C07E340-5505-C4FA-E7C2-60C1E0CEADB0">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:18:03 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA1F18EA-8ECE-73F5-7AE1-D8316D405677" name="PHONE_NUMBER PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:17:59 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>343F663B-B84E-9145-2BF1-71788DED89D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

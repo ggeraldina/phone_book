@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF1AD05F-78C9-B9B7-4101-FE52E3FA0795" name="NUMBER_HOUSE">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 15:09:35 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>NH</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="F28433B7-3B35-EC01-87FD-99488BE691BF">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 15:10:03 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STREET_Name" id="ED27B859-E74E-C10A-0359-1C2E8D8289AE">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 15:17:37 UTC</createdTime>
+<generatorID>92F10326-8960-120F-CFB8-DA62ABF443B2</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>A3167C23-B5DC-BCCB-6184-37A5B9DD04F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY_Name" id="5C186440-5C93-E5E8-E59B-5853F5FD7FF0">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 19:00:14 UTC</createdTime>
+<generatorID>92F10326-8960-120F-CFB8-DA62ABF443B2</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>C0EB3624-0D2F-EC17-3385-DA655A509F0B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNT_Name" id="476CFCB2-E079-7608-9D1E-30F766CA261B">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 19:07:18 UTC</createdTime>
+<generatorID>92F10326-8960-120F-CFB8-DA62ABF443B2</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>84A07F3B-2B92-5BF5-FC25-C916CFDF448D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E075472-A4E9-F027-A00C-DB1E4BC91112" name="NUMBER_HOUSE PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 15:10:33 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F28433B7-3B35-EC01-87FD-99488BE691BF</attributeRef>
+<attributeRef>ED27B859-E74E-C10A-0359-1C2E8D8289AE</attributeRef>
+<attributeRef>5C186440-5C93-E5E8-E59B-5853F5FD7FF0</attributeRef>
+<attributeRef>476CFCB2-E079-7608-9D1E-30F766CA261B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

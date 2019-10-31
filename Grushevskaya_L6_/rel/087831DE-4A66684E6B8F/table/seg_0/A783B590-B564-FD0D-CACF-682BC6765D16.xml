@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A783B590-B564-FD0D-CACF-682BC6765D16" name="HISTORY_PHONE_NUMBER">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>36B2970F-0744-05DE-B8C1-B3B213F995FE</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Start_date" id="93D29CED-734F-E5EA-E4AA-08E41FF186C7">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>82237A7A-8019-C0A3-87AE-D3E450D90BE7</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_date" id="1057DF20-40A9-1C2D-963A-CB6841F1930C">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>2A29E82B-BD21-C402-BAA5-B662C0EA94BD</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRS_ID" id="15E454E3-76B6-1435-7BF1-DB8B41CFF1F9">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>27DE3CFB-3184-419C-0F2F-A6EA4B83113B</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6310CE18-6963-3B8B-A621-E65DA96B43C9" referredColumn="433EDFE0-3AF6-F1FE-EFCD-6A5254CD194D"/>
+</associations>
+</Column>
+<Column name="PN_Number" id="59F3FA3C-709D-56EA-F6D3-78CF3EF9FEE8">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>0D6F827F-AF71-E291-6F09-8BDB77C15C2A</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B58D94B9-480B-33AB-06EA-77AAFA11C554" referredColumn="CD7FF904-66ED-996E-82F5-CB7F1DB54096"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E3AA338-7473-15F0-25AA-B7A72DC1CC33" name="HPN_PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>6D04D264-EE11-30D4-BE0B-2B50B8289199</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93D29CED-734F-E5EA-E4AA-08E41FF186C7"/>
+<colUsage columnID="59F3FA3C-709D-56EA-F6D3-78CF3EF9FEE8"/>
+<colUsage columnID="15E454E3-76B6-1435-7BF1-DB8B41CFF1F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="721ADA95-FE41-2ECF-0AB2-993B969B91C6" name="HPN_PRS_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>CAFA4E12-6FEB-C273-B2A5-D027F60791D0</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15E454E3-76B6-1435-7BF1-DB8B41CFF1F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE38AE8A-6BCF-E7F9-E696-ACC0352AEB87" name="HPN_PN_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>5C6A330E-2E25-368D-0C89-BB5D1DA67A4C</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59F3FA3C-709D-56EA-F6D3-78CF3EF9FEE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

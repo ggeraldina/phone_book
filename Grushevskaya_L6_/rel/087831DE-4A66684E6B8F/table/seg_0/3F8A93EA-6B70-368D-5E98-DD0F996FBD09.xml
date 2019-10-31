@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F8A93EA-6B70-368D-5E98-DD0F996FBD09" name="COUNTRY">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>E1E9EA30-C083-249A-2045-60629372CDA7</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="D7D4C247-D5F3-145B-88DF-135A09832CB1">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>EBCFD42B-661A-70B7-EE76-E8DF9CA49CCF</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6F7353B-5D09-3EF2-5EA2-55EA72AB4EC4" name="CNT_PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>C5020B50-716A-6D6B-2C70-A09BE60F6698</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7D4C247-D5F3-145B-88DF-135A09832CB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

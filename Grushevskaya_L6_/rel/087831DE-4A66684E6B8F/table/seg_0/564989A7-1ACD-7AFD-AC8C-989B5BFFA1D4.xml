@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="564989A7-1ACD-7AFD-AC8C-989B5BFFA1D4" name="CITY">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>7CB1F4E1-1DA1-BE2F-C556-3ADDD7172F40</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="9D844FDD-B82B-B426-B7F4-110819183FB3">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>66153432-C39E-43AD-BECE-789EB8E7FAA0</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNT_Name" id="1CD2E57D-5645-E3D7-1823-7A054A6A43E1">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>F5BBBC67-7F34-CF79-40BC-79ED4F97D494</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18305139-3620-3C6C-B274-B6645176C74C" referredColumn="D7D4C247-D5F3-145B-88DF-135A09832CB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBBBBBCF-D638-ADFF-93CD-9DDB3C221D76" name="CITY_PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>64504DD0-623B-6B60-3B64-003771C38254</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D844FDD-B82B-B426-B7F4-110819183FB3"/>
+<colUsage columnID="1CD2E57D-5645-E3D7-1823-7A054A6A43E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="987BE97E-F7C6-759C-81EF-093326CE92F8" name="CITY_CNT_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>98150362-5BD9-4068-3124-9F5EA6524C4C</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CD2E57D-5645-E3D7-1823-7A054A6A43E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

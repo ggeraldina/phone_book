@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EE21524-3DA1-9AF5-ED07-3836F4BAAE67" name="EMAIL">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>A3C97584-6FD3-277C-2B05-B176FA312FE1</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Email" id="E7BD9B8B-2B21-D9C9-CDC6-F3FE511657C2">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>C3A95D09-7733-485D-3665-5CC4368B4985</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="D9C4C639-5123-3E5E-FA98-D291CE7F694F">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>640D46D6-35B5-BA3B-7D1F-A67EA4D2D194</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRS_ID" id="923146FB-70BF-8124-6355-7749388CB7C8">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>5DB2F900-0F71-7D8E-759A-92D79EE356AB</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5876030-8AEF-ADB8-7E5C-1147AFEB1C21" referredColumn="433EDFE0-3AF6-F1FE-EFCD-6A5254CD194D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7C1F7D0-C686-C461-BBCA-0A32E6B3F6D6" name="EMAIL_PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>068ED306-9A84-D996-DA22-2D632A7183F6</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7BD9B8B-2B21-D9C9-CDC6-F3FE511657C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12B04126-53E1-C381-4D25-9FCDE73BAF4B" name="EMAIL_PRS_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>B4806F14-8D24-B8E0-0E87-AB69275F7BF7</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="923146FB-70BF-8124-6355-7749388CB7C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

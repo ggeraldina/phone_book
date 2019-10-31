@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2E22F10-5302-9CE2-9431-16490DFB5218" name="CATEGORY_PERSON">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>1A141644-7579-971A-F3E0-9A0F6E760857</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRS_ID" id="5FEFBA4B-FAE3-C41D-6CEC-BFA65F0F44DD">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>0D5F70D1-6CA2-C4C8-4575-B7939D7BAB0C</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1171F30-E306-3E5A-2C06-E3D7236AE03A" referredColumn="433EDFE0-3AF6-F1FE-EFCD-6A5254CD194D"/>
+</associations>
+</Column>
+<Column name="CTG_Name" id="69B9D8C4-7355-96E6-F539-BB87F1403BDB">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>AEC66BEF-7F00-1EB3-3F12-8282C0BE69D7</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F923D507-AEE1-B227-3425-8F4D783E9C51" referredColumn="CA752ED6-7BF1-1CAC-BF33-7DB4A78A11C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A668776-E7CE-5705-9AA6-B98076ED4574" name="CP_PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>E89A4F8B-67DE-42DB-8CE5-774520956FC9</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FEFBA4B-FAE3-C41D-6CEC-BFA65F0F44DD"/>
+<colUsage columnID="69B9D8C4-7355-96E6-F539-BB87F1403BDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA339181-A8B5-4A1B-C298-4752A2433E78" name="CP_PRS_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>F27D5896-A292-4CFD-4453-C30DED4ADCB4</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FEFBA4B-FAE3-C41D-6CEC-BFA65F0F44DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6F2F054-5853-9544-541B-F88A52464916" name="CP_CTG_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>F6E820A9-033D-3048-8F54-0A3B8B6EBA60</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69B9D8C4-7355-96E6-F539-BB87F1403BDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

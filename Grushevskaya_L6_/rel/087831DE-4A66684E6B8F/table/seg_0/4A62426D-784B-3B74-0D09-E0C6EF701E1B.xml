@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A62426D-784B-3B74-0D09-E0C6EF701E1B" name="PERSON">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>3446139A-E73A-8752-1A34-D2943AE3D009</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="433EDFE0-3AF6-F1FE-EFCD-6A5254CD194D">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>DE66385D-2CCD-EAEA-403C-3E6738D49DA9</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="84B8F685-31EF-4B4F-5BB1-2B80C56A4B57">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>A24EB3DE-A68C-DFAE-9830-BBB0CE3A7824</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_name" id="235F49A8-37C4-EDE5-08D2-B15469D84FFA">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>1B698913-0FF2-664D-3CDE-CCC8CB48B38E</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patronymic" id="3183D1FB-B6AA-9BFD-23AD-3E80B07367C6">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>33B13E81-7602-7280-63AD-7302FF2CF12C</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISQ" id="A485419E-0DBB-D374-AB32-EFDFA20F12E3">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>C3CA0D0A-442F-8390-6AD7-353627D7C3FE</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VK" id="778671A2-3B88-8363-C3EF-8502B0476A93">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>71A090F2-24B5-BA84-993C-FAAEC2D381DF</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APR_Number" id="1A3F00C8-F70B-2095-305F-130F761361B6">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>DF7E1CAF-4530-7F35-62D2-E0D19A8E7A92</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6063A142-4B13-9EFA-FFD6-6014B1FB961D" referredColumn="01830A44-D311-F07B-516E-29CAF8D06893"/>
+</associations>
+</Column>
+<Column name="APR_NH_Number" id="6058C34A-832B-E6E2-8F73-704600730F04">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>DB2F9642-C320-39FC-D97F-AB1E3A9A24F8</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6063A142-4B13-9EFA-FFD6-6014B1FB961D" referredColumn="24EEC1D1-5DEB-3D6B-06E1-90796D61CD50"/>
+</associations>
+</Column>
+<Column name="APR_NH_STREET_Name" id="D1495091-241D-6550-7701-E9AE53267BE9">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>BFB8EFF8-AE87-EF94-9800-264B923C28A4</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6063A142-4B13-9EFA-FFD6-6014B1FB961D" referredColumn="407A9B9B-F5EE-77DF-A06D-FA1F667C7431"/>
+</associations>
+</Column>
+<Column name="APR_NH_STREET_CITY_Name" id="44ECCBB2-6965-19A7-95C0-D639EAB87716">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>FE387203-0E88-1C82-8C4E-03C31CDA6EDB</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6063A142-4B13-9EFA-FFD6-6014B1FB961D" referredColumn="14EA4747-014E-9768-C779-6F954AEFDF7A"/>
+</associations>
+</Column>
+<Column name="APR_NH_STREET_CITY_CNT_Name" id="9EDAB54E-1731-8996-0C39-E1FD3D77833D">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>66D0D5FB-0569-4247-4134-4BD08178CA2E</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6063A142-4B13-9EFA-FFD6-6014B1FB961D" referredColumn="75206B95-F2AE-0810-FE73-AFF2FC72B58E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AE1A066-6584-61E8-2AF8-4CBBE36DD2BE" name="PRS_PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>3BDA6F6F-0D84-9FD6-F9DC-EBE7E190C736</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="433EDFE0-3AF6-F1FE-EFCD-6A5254CD194D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E1F1198-320C-FCD2-EDFA-B358C46A9050" name="PRS_APR_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>77F93D14-9703-C5F8-B235-A407E6D7C445</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A3F00C8-F70B-2095-305F-130F761361B6"/>
+<colUsage columnID="6058C34A-832B-E6E2-8F73-704600730F04"/>
+<colUsage columnID="D1495091-241D-6550-7701-E9AE53267BE9"/>
+<colUsage columnID="44ECCBB2-6965-19A7-95C0-D639EAB87716"/>
+<colUsage columnID="9EDAB54E-1731-8996-0C39-E1FD3D77833D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

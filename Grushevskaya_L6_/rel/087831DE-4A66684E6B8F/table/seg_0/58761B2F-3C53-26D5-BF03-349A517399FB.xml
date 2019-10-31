@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58761B2F-3C53-26D5-BF03-349A517399FB" name="STREET">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>15235AD6-61EF-F489-D2DC-32F6CF52AFEC</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="1D2E4FE0-10C5-D6CB-6F9A-CA9D30502817">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>A3167C23-B5DC-BCCB-6184-37A5B9DD04F6</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY_Name" id="CD36DD17-DA93-D59C-C3B8-6282838EA262">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>C0EB3624-0D2F-EC17-3385-DA655A509F0B</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4B14ACE-421E-9CE6-489D-CD01C5C698AF" referredColumn="9D844FDD-B82B-B426-B7F4-110819183FB3"/>
+</associations>
+</Column>
+<Column name="CITY_CNT_Name" id="AF81F0B5-9CA7-5C9C-4E69-E0AB0EEF9856">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>84A07F3B-2B92-5BF5-FC25-C916CFDF448D</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4B14ACE-421E-9CE6-489D-CD01C5C698AF" referredColumn="1CD2E57D-5645-E3D7-1823-7A054A6A43E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="691D859B-EF93-3106-2842-B025291C1081" name="STREET_PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>F564646D-A805-026D-2ABA-683CC0728AB8</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D2E4FE0-10C5-D6CB-6F9A-CA9D30502817"/>
+<colUsage columnID="CD36DD17-DA93-D59C-C3B8-6282838EA262"/>
+<colUsage columnID="AF81F0B5-9CA7-5C9C-4E69-E0AB0EEF9856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02913A6E-E329-C04B-F0DF-0BA336A7CF83" name="STREET_CITY_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>FFEA2313-2DF4-9668-476A-8C094CEF1895</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD36DD17-DA93-D59C-C3B8-6282838EA262"/>
+<colUsage columnID="AF81F0B5-9CA7-5C9C-4E69-E0AB0EEF9856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

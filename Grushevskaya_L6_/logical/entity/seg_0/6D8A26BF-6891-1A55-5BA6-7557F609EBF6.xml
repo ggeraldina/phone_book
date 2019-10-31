@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D8A26BF-6891-1A55-5BA6-7557F609EBF6" name="CATEGORY">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:18:29 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CTG</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="EF703314-FE17-19D7-90C7-272EEA519CF3">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:18:47 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E69FB144-D235-AC83-1C19-9802B5532ACF" name="CATEGORY PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:19:03 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF703314-FE17-19D7-90C7-272EEA519CF3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

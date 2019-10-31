@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="353C1E77-B9A8-8E46-C886-9BA2CC9A6E45" containerWithKeyObject="0372E996-F4AF-981B-7015-75BBA19670A0" localFKIndex="CADF7079-0CC1-F825-E2B9-9A3BBBD693B3" name="NH_STREET_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>92F10326-8960-120F-CFB8-DA62ABF443B2</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<referredTableLongName>STREET</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58761B2F-3C53-26D5-BF03-349A517399FB</referredTableID>
+<keyObject>691D859B-EF93-3106-2842-B025291C1081</keyObject>
+<referredKeyID>691D859B-EF93-3106-2842-B025291C1081</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Name,CITY_Name,CITY_CNT_Name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

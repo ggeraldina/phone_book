@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Grushevskaya_L6_" id="C99DB9AD-2425-46C9-829B-714EA21CB4AE" version="3.5">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 07:58:06 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C99DB9AD-2425-46C9-829B-714EA21CB4AE</designId>
+</OSDM_Design>

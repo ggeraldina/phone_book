@@ -1,0 +1,30 @@
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\bin\Debug\Grushevskaya_L6_.exe.config
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.csprojResolveAssemblyReference.cache
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form1.resources
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form2.resources
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Properties.Resources.resources
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.csproj.GenerateResource.Cache
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\bin\Debug\Grushevskaya_L6_.exe
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\bin\Debug\Grushevskaya_L6_.pdb
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.exe
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.pdb
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form3.resources
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form4.resources
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form5.resources
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form6.resources
+D:\ЯрГУ\SQL server\Grushevskaya_L6_\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form7.resources
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\bin\Debug\Grushevskaya_L6_.exe.config
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.exe
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.pdb
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\bin\Debug\Grushevskaya_L6_.exe
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\bin\Debug\Grushevskaya_L6_.pdb
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.csprojResolveAssemblyReference.cache
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form1.resources
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form2.resources
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form3.resources
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form4.resources
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form5.resources
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form6.resources
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Form7.resources
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.Properties.Resources.resources
+C:\Users\Geraldina\Desktop\Grushevskaya_L6\Grushevskaya_L6_VS\Grushevskaya_L6_\obj\Debug\Grushevskaya_L6_.csproj.GenerateResource.Cache

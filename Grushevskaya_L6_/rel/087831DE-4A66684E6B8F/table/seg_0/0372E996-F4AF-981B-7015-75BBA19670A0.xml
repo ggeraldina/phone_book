@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0372E996-F4AF-981B-7015-75BBA19670A0" name="NUMBER_HOUSE">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:39 UTC</createdTime>
+<generatorID>DF1AD05F-78C9-B9B7-4101-FE52E3FA0795</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Number" id="A1D7ED8A-8207-09AF-C97C-10369D6B36D0">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>F28433B7-3B35-EC01-87FD-99488BE691BF</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET_Name" id="3CFF72F1-8111-DABE-5CFC-8BE5C6363219">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>ED27B859-E74E-C10A-0359-1C2E8D8289AE</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="353C1E77-B9A8-8E46-C886-9BA2CC9A6E45" referredColumn="1D2E4FE0-10C5-D6CB-6F9A-CA9D30502817"/>
+</associations>
+</Column>
+<Column name="STREET_CITY_Name" id="512E9E89-62E4-C9FF-20FE-773D0B4AEBF7">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>5C186440-5C93-E5E8-E59B-5853F5FD7FF0</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="353C1E77-B9A8-8E46-C886-9BA2CC9A6E45" referredColumn="CD36DD17-DA93-D59C-C3B8-6282838EA262"/>
+</associations>
+</Column>
+<Column name="STREET_CITY_CNT_Name" id="C7D901C0-5658-04B2-F184-4FC2822EF80D">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>476CFCB2-E079-7608-9D1E-30F766CA261B</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="353C1E77-B9A8-8E46-C886-9BA2CC9A6E45" referredColumn="AF81F0B5-9CA7-5C9C-4E69-E0AB0EEF9856"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AFCA114-6B93-FA11-54D2-88F7EC987993" name="NH_PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>9E075472-A4E9-F027-A00C-DB1E4BC91112</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1D7ED8A-8207-09AF-C97C-10369D6B36D0"/>
+<colUsage columnID="3CFF72F1-8111-DABE-5CFC-8BE5C6363219"/>
+<colUsage columnID="512E9E89-62E4-C9FF-20FE-773D0B4AEBF7"/>
+<colUsage columnID="C7D901C0-5658-04B2-F184-4FC2822EF80D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CADF7079-0CC1-F825-E2B9-9A3BBBD693B3" name="NH_STREET_FK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-29 05:41:40 UTC</createdTime>
+<generatorID>92F10326-8960-120F-CFB8-DA62ABF443B2</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CFF72F1-8111-DABE-5CFC-8BE5C6363219"/>
+<colUsage columnID="512E9E89-62E4-C9FF-20FE-773D0B4AEBF7"/>
+<colUsage columnID="C7D901C0-5658-04B2-F184-4FC2822EF80D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

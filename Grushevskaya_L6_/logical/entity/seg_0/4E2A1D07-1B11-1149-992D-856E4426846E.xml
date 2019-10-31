@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E2A1D07-1B11-1149-992D-856E4426846E" name="APARTMENT">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 15:11:59 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>APR</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="A811CF9F-2083-3761-853C-29F03722D1B7">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 15:12:38 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NH_Number" id="F869C0ED-3FFE-7FDC-6D2F-F8007FC5B44C">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 15:18:17 UTC</createdTime>
+<generatorID>ED450905-104B-FA0C-F650-799B798EC03E</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>F28433B7-3B35-EC01-87FD-99488BE691BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STREET_Name" id="40ED2C70-4AC5-362D-D380-C72D2E5A6FFF">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 19:00:23 UTC</createdTime>
+<generatorID>ED450905-104B-FA0C-F650-799B798EC03E</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>ED27B859-E74E-C10A-0359-1C2E8D8289AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY_Name" id="10912CB9-45F2-F0A0-C1A9-6E38A04BA47E">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 19:00:23 UTC</createdTime>
+<generatorID>ED450905-104B-FA0C-F650-799B798EC03E</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>5C186440-5C93-E5E8-E59B-5853F5FD7FF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNT_Name" id="60961BB1-0766-F37B-3670-A4F2BF899B26">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 19:07:18 UTC</createdTime>
+<generatorID>ED450905-104B-FA0C-F650-799B798EC03E</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>476CFCB2-E079-7608-9D1E-30F766CA261B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="731EBF95-179E-422D-0999-089D738F9485" name="APARTMENT PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 15:13:06 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A811CF9F-2083-3761-853C-29F03722D1B7</attributeRef>
+<attributeRef>F869C0ED-3FFE-7FDC-6D2F-F8007FC5B44C</attributeRef>
+<attributeRef>40ED2C70-4AC5-362D-D380-C72D2E5A6FFF</attributeRef>
+<attributeRef>10912CB9-45F2-F0A0-C1A9-6E38A04BA47E</attributeRef>
+<attributeRef>60961BB1-0766-F37B-3670-A4F2BF899B26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

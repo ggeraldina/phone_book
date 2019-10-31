@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="92F10326-8960-120F-CFB8-DA62ABF443B2">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 15:17:37 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<sourcePk>F564646D-A805-026D-2ABA-683CC0728AB8</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>contain</nameOnSource>
+<nameOnTarget>belongs</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15235AD6-61EF-F489-D2DC-32F6CF52AFEC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF1AD05F-78C9-B9B7-4101-FE52E3FA0795</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

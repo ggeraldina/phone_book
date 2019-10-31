@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A141644-7579-971A-F3E0-9A0F6E760857" name="CATEGORY_PERSON">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:19:23 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CP</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0D5F70D1-6CA2-C4C8-4575-B7939D7BAB0C">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:33:45 UTC</createdTime>
+<generatorID>F27D5896-A292-4CFD-4453-C30DED4ADCB4</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>DE66385D-2CCD-EAEA-403C-3E6738D49DA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="AEC66BEF-7F00-1EB3-3F12-8282C0BE69D7">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:33:53 UTC</createdTime>
+<generatorID>F6E820A9-033D-3048-8F54-0A3B8B6EBA60</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>EF703314-FE17-19D7-90C7-272EEA519CF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E89A4F8B-67DE-42DB-8CE5-774520956FC9" name="CATEGORY_PERSON PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:42:30 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D5F70D1-6CA2-C4C8-4575-B7939D7BAB0C</attributeRef>
+<attributeRef>AEC66BEF-7F00-1EB3-3F12-8282C0BE69D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

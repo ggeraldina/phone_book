@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36B2970F-0744-05DE-B8C1-B3B213F995FE" name="HISTORY_PHONE_NUMBER">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:15:31 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>HPN</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Start_date" id="82237A7A-8019-C0A3-87AE-D3E450D90BE7">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:16:17 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_date" id="2A29E82B-BD21-C402-BAA5-B662C0EA94BD">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:17:14 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="27DE3CFB-3184-419C-0F2F-A6EA4B83113B">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:34:09 UTC</createdTime>
+<generatorID>CAFA4E12-6FEB-C273-B2A5-D027F60791D0</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>DE66385D-2CCD-EAEA-403C-3E6738D49DA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="0D6F827F-AF71-E291-6F09-8BDB77C15C2A">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:34:15 UTC</createdTime>
+<generatorID>5C6A330E-2E25-368D-0C89-BB5D1DA67A4C</generatorID>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<referedAttribute>343F663B-B84E-9145-2BF1-71788DED89D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D04D264-EE11-30D4-BE0B-2B50B8289199" name="HISTORY_PHONE_NUMBER PK">
+<createdBy>Geraldina</createdBy>
+<createdTime>2017-12-28 08:17:08 UTC</createdTime>
+<ownerDesignName>Grushevskaya_L6_</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087831DE-2943-B15B-2C36-4A66684E6B8F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82237A7A-8019-C0A3-87AE-D3E450D90BE7</attributeRef>
+<attributeRef>0D6F827F-AF71-E291-6F09-8BDB77C15C2A</attributeRef>
+<attributeRef>27DE3CFB-3184-419C-0F2F-A6EA4B83113B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
